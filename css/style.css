@@ -5,10 +5,11 @@
 
 .main_body {
   padding: 5px;
-  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
   position: relative;
-  top: -10;
-  left: 20px;
+  top: -17;
+  right: 200px;
   width: 600px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -17,12 +18,12 @@
 
 .signup h1 {
   color: rgb(94, 248, 94);
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .signup h2 {
   color: rgb(77, 208, 77);
-  font-size: 26px;
+  font-size: 22px;
 }
 
 .signup p {
@@ -36,7 +37,8 @@
   background-color: white;
   display: flex;
   width: 300px;
-  margin: 16px;
+  padding: 2px;
+  margin: 10px;
   border-radius: 12px 10px 6px 10px;
 }
 .A_G_btnbutton:hover {
@@ -94,12 +96,14 @@
 }
 
 .email_input label {
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .email_input input {
   padding: 17px;
   border-radius: 15px;
+  margin-top: -10px;
 }
 
 .next {
@@ -170,826 +174,199 @@
     width: 50vw;
   }
 }
-
-@media screen and (max-width: 898px) {
+@media screen and (max-width: 1030px) {
+  .main_body {
+    position: relative;
+    right: 150px;
+  }
   .container2 {
-    height: 100%;
-    width: 40vw;
-    position: absolute;
-    right: 0px;
+    width: 50vw;
+  }
+}
 
+@media screen and (max-width: 933px) {
+  .main_body {
+    position: relative;
+    right: 90px;
+  }
+
+  .container2 {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .main_body {
+    position: relative;
+    right: 70px;
+  }
+
+  .container2 {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .main_body {
+    position: relative;
+    right: 40px;
+  }
+
+  .container2 {
+    width: 300px;
+  }
+
+  .cont2_content {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 711px) {
+  .main_body {
+    position: relative;
+    right: 5px;
+    left: 30px;
+    margin: 10px;
+  }
+
+  .container2 {
+    width: 270px;
+  }
+
+  .cont2_content {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .cont2_content h2 {
+    display: none;
+  }
+
+  .cont2_content p {
+    display: none;
+  }
+
+  .arrow2 {
+    display: none;
+  }
+  #mediaQ_header {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  .main_body {
+    position: relative;
+    right: 40px;
     overflow: hidden;
   }
 
-  .cont2_content p {
-    width: 270px;
-  }
-}
-
-@media screen and (max-width: 789px) {
-  .main_body {
-    margin-top: 40px;
-    width: 500px;
-  }
-
-  .signup {
-    width: 600px;
-  }
-  .email_input input {
-    width: 400px;
-  }
-
-  .A_G_btn button {
-    width: 400px;
-  }
-  .A_G_btn button p {
-    position: absolute;
-    right: 200px;
-    font-weight: 700;
-  }
-  .or {
-    position: relative;
-    right: 50px;
-  }
   .container2 {
-    height: 100vh;
-    width: 30vw;
+    width: 200px;
   }
 
-  .cont2_content h2 {
-    font-size: 25px;
-    width: 190px;
-    position: relative;
-  }
-  .cont2_content p {
-    width: 240px;
-  }
-
-  .percent_off {
-    position: relative;
-    top: -20px;
-  }
-}
-
-@media screen and (max-width: 761px) {
-  .main_body {
-    position: relative;
-    top: 50px;
-    width: 500px;
-  }
-
-  .email_input input {
-    width: 550px;
-  }
-
-  .A_G_btn button {
-    width: 550px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 130px;
-    font-weight: 700;
-  }
-
-  .or {
-    position: relative;
-    left: 90px;
-  }
-
-  .container2 {
-    height: 10vh;
-    width: 100vw;
-  }
-
-  .cont2_content h2 {
-    margin: 20px;
-    font-size: 22px;
-    width: 700px;
-    position: absolute;
-    top: 0px;
-    display: none;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 200px;
-    text-decoration: underline;
-  }
-
-  .percent_off {
-    display: none;
-  }
-  .percent_off a {
-    display: none;
-  }
-  .arrow {
-    position: absolute;
-    right: 10px;
-  }
-}
-@media screen and (max-width: 717px) {
-  .main_body {
-    position: relative;
-    top: 40px;
-    width: 400px;
-  }
-
-  .email_input input {
-    width: 580px;
-  }
-
-  .A_G_btn button {
-    width: 580px;
-  }
-
-  .A_G_btn button p {
-    position: relative;
-    right: 230px;
-    font-weight: 700;
-  }
-
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 200px;
-
-    text-decoration: underline;
-  }
-
-  .container2 {
-    width: 100vw;
-  }
-}
-
-@media screen and (max-width: 669px) {
-  .main_body {
-    position: relative;
-    top: 60px;
-    width: 400px;
-    margin: -5px;
-  }
-
-  .email_input input {
-    width: 500px;
-  }
-
-  .A_G_btn button {
-    width: 500px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 50px;
-    font-weight: 700;
-  }
-
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 150px;
-    text-decoration: underline;
-  }
-}
-@media screen and (max-width: 630px) {
-  .main_body {
-    padding: 10px;
-    position: absolute;
-    top: 60px;
-    width: 400px;
-  }
-
-  .email_input input {
-    width: 480px;
-    padding: 15px;
-  }
-
-  .A_G_btn button {
-    width: 480px;
-    padding: 8px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 70px;
-    font-weight: 700;
-  }
-  .A_G_btn button svg {
-    display: flex;
-    justify-content: center;
-  }
-  .or {
-    margin-left: -160px;
-  }
-
-  .container2 {
-    width: 100vw;
+  .cont2_content {
+    width: 150px;
   }
 }
 
 @media screen and (max-width: 645px) {
   .main_body {
-    padding: 10px;
     position: absolute;
-    top: 60px;
-    width: 450px;
+    top: 50px;
+    margin-right: auto;
+    margin-left: auto;
   }
-  .signup h1 {
-    font-size: 22px;
-  }
-
-  .signup h2 {
-    font-size: 20px;
+  .container2 {
+    height: 10%;
+    width: 100%;
   }
 
-  .signup p {
-    font-size: 17px;
-  }
-
-  .email_input input {
-    width: 390px;
-  }
-
-  .A_G_btn button {
-    width: 390px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 150px;
-    font-weight: 700;
-  }
-
-  .or {
-    margin-left: -240px;
+  .cont2_content {
+    width: 150px;
   }
 
   #mediaQ_header {
-    display: block;
+    width: 400px;
     position: relative;
-    left: 130px;
-    text-decoration: underline;
+    top: -60px;
+    display: flex;
+    justify-content: flex-end;
   }
 
-  .container2 {
-    width: 100vw;
-    height: 8vh;
+  .percent_off {
+    display: none;
+  }
+  .arrow2 {
+    display: block;
   }
 }
-@media screen and (max-width: 624px) {
-  .main_body {
-    margin: -5px;
-    padding: -10px;
-    position: absolute;
-    top: 50px;
-    width: 490px;
-    overflow-x: hidden;
-  }
 
-  .email_input input {
-    width: 440px;
+@media screen and (max-width: 527px) {
+  /* .main_body {
+    margin: 13px;
   }
+  .signup h1 {
+    font-size: 18px;
+  }
+  .signup h2 {
+    font-size: 15px;
+  }
+  .signup p {
+    font-size: 12px;
+  } */
 
-  .A_G_btn button {
-    width: 440px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 165px;
-    font-weight: 700;
-  }
-  .or {
+  #mediaQ_header a {
     position: relative;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 420px) {
+  /* .main_body {
+      margin: 13px;
+    }
+    .signup h1 {
+      font-size: 18px;
+    }
+    .signup h2 {
+      font-size: 15px;
+    }
+    .signup p {
+      font-size: 12px;
+    } */
+
+  #mediaQ_header a {
+    position: relative;
+    right: 105px;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .main_body {
+    margin: 13px;
+  }
+  .signup h1 {
+    font-size: 21px;
+  }
+  .signup h2 {
+    font-size: 18px;
+  }
+  .signup p {
+    font-size: 16px;
+  }
+
+  #mediaQ_header a {
+    font-size: 17px;
+    position: absolute;
     right: 140px;
   }
 }
 
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 371px) {
   .main_body {
-    margin: -5px;
-    padding: -10px;
     position: absolute;
-    top: 50px;
-    width: 490px;
-    overflow-x: hidden;
-  }
-
-  .email_input input {
-    width: 330px;
-  }
-
-  .A_G_btn button {
-    width: 330px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 225px;
-    font-weight: 700;
-  }
-  .or {
-    position: relative;
-    right: 140px;
+    right: -100px;
   }
 }
-
-@media screen and (max-width: 573px) {
-  .main_body {
-    margin: -5px;
-    padding: -10px;
-    position: absolute;
-    top: 50px;
-    width: 490px;
-    overflow-x: hidden;
-  }
-
-  .email_input input {
-    width: 330px;
-  }
-
-  .A_G_btn button {
-    width: 330px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 219px;
-    font-weight: 700;
-  }
-  .or {
-    position: relative;
-    right: 190px;
-  }
-}
-
-@media screen and (max-width: 518px) {
-  .main_body {
-    margin: -5px;
-    padding: -10px;
-    position: absolute;
-    top: 50px;
-    width: 490px;
-    overflow-x: hidden;
-  }
-
-  .email_input input {
-    width: 330px;
-  }
-
-  .A_G_btn button {
-    width: 330px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 219px;
-    font-weight: 700;
-  }
-  .or {
-    position: relative;
-    right: 290px;
-  }
-}
-
-/* 
-@media screen and (max-width: 497px) {
-  .main_body {
-    margin: -15px;
-    padding: -20px;
-    position: absolute;
-    top: 50px;
-    width: 450px;
-    overflow: hidden;
-  }
-
-  .email_input input {
-    width: 330px;
-  }
-
-  .A_G_btn button {
-    width: 330px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 219px;
-    font-weight: 700;
-  }
-  .or {
-    position: relative;
-    right: 190px;
-  }
-} */
-
-/* 
-@media screen and (max-width: 587px) {
-  .main_body {
-    margin-top: 40px;
-  }
-
-  .email_input input {
-    width: 480px;
-  }
-
-  .A_G_btn button {
-    width: 480px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 55px;
-    font-weight: 700;
-  }
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 130px;
-    text-decoration: underline;
-  }
-} */
-/* 
-@media screen and (max-width: 579px) {
-  .main_body {
-    margin-top: 40px;
-  }
-  .container2 {
-    height: 10vh;
-    width: 100vw;
-  }
-
-  .cont2_content h2 {
-    font-size: 17px;
-    width: 340px;
-    position: absolute;
-    top: 0px;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-  .percent_off {
-    position: absolute;
-    top: -28px;
-    left: 15px;
-    padding: 13px;
-  }
-}
-@media screen and (max-width: 575px) {
-  .main_body {
-    margin-top: 40px;
-  }
-
-  .email_input input {
-    width: 350px;
-  }
-
-  .A_G_btn button {
-    width: 360px;
-  }
-
-  .A_G_btn button p {
-    position: absolute;
-    right: 59px;
-    font-weight: 700;
-  }
-  .or {
-    position: relative;
-    right: 220px;
-  }
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 130px;
-    text-decoration: underline;
-  }
-}
-
-@media screen and (max-width: 477px) {
-  .main_body {
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-
-  .signup h1 {
-    font-size: 24px;
-  }
-
-  .signup h2 {
-    font-size: 21px;
-  }
-
-  .signup p {
-    font-size: 14px;
-  }
-  .email_input input {
-    width: 310px;
-  }
-  .or {
-    position: relative;
-    left: 50px;
-    width: 200px;
-  }
-  .or p {
-    font-size: 13px;
-  }
-
-  .A_G_btn button {
-    width: 350px;
-  }
-  .A_G_btn button p {
-    font-size: 19px;
-    position: relative;
-    right: 120px;
-
-    font-weight: 700;
-  }
-  .container2 {
-    height: 10vh;
-  }
-
-  .cont2_content h2 {
-    font-size: 17px;
-    width: 340px;
-    position: absolute;
-    top: 0px;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-  .percent_off {
-    position: absolute;
-    top: -28px;
-    left: 15px;
-    padding: 13px;
-  }
-}
-@media screen and (max-width: 471px) {
-  .main_body {
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 80px;
-    text-decoration: underline;
-  }
-  .signup h1 {
-    font-size: 24px;
-  }
-
-  .signup h2 {
-    font-size: 21px;
-  }
-
-  .signup p {
-    font-size: 14px;
-  }
-  .email_input input {
-    width: 310px;
-  }
-  .or {
-    position: relative;
-    left: 80px;
-  }
-  .or p {
-    font-size: 13px;
-  }
-
-  .A_G_btn button {
-    width: 350px;
-  }
-  .A_G_btn button p {
-    font-size: 19px;
-    position: relative;
-    right: 100px;
-
-    font-weight: 700;
-  }
-  .container2 {
-    height: 10vh;
-  }
-
-  .cont2_content h2 {
-    font-size: 17px;
-    width: 340px;
-    position: absolute;
-    top: 0px;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-  .percent_off {
-    position: absolute;
-    top: -28px;
-    left: 15px;
-    padding: 13px;
-  }
-}
-
-@media screen and (max-width: 469px) {
-  .main_body {
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 100px;
-    text-decoration: underline;
-  }
-  .signup h1 {
-    font-size: 24px;
-  }
-
-  .signup h2 {
-    font-size: 21px;
-  }
-
-  .signup p {
-    font-size: 14px;
-  }
-  .email_input input {
-    width: 310px;
-  }
-  .or {
-    position: relative;
-    left: 80px;
-  }
-  .or p {
-    font-size: 13px;
-  }
-
-  .A_G_btn button {
-    width: 350px;
-  }
-  .A_G_btn button p {
-    font-size: 19px;
-    position: relative;
-    right: 110px;
-
-    font-weight: 700;
-  }
-  .container2 {
-    height: 10vh;
-  }
-
-  .cont2_content h2 {
-    font-size: 17px;
-    width: 340px;
-    position: absolute;
-    top: 0px;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-  .percent_off {
-    position: absolute;
-    top: -28px;
-    left: 15px;
-    padding: 13px;
-  }
-}
-
-@media screen and (max-width: 447px) {
-  .main_body {
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-
-  #mediaQ_header {
-    display: block;
-    position: relative;
-    left: 60px;
-    text-decoration: underline;
-  }
-  .signup h1 {
-    font-size: 24px;
-  }
-
-  .signup h2 {
-    font-size: 21px;
-  }
-
-  .signup p {
-    font-size: 14px;
-  }
-  .email_input input {
-    width: 290px;
-  }
-  .or {
-    position: relative;
-    left: 50px;
-  }
-  .or p {
-    font-size: 13px;
-  }
-
-  .A_G_btn button {
-    width: 295px;
-  }
-  .A_G_btn button p {
-    font-size: 19px;
-    position: relative;
-    right: 90px;
-
-    font-weight: 700;
-  }
-  .container2 {
-    height: 10vh;
-  }
-
-  .cont2_content h2 {
-    font-size: 17px;
-    width: 340px;
-    position: absolute;
-    top: 0px;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-  .percent_off {
-    position: absolute;
-    top: -28px;
-    left: 15px;
-    padding: 13px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .main_body {
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 60px;
-  }
-
-  .signup h1 {
-    font-size: 24px;
-  }
-
-  .signup h2 {
-    font-size: 21px;
-  }
-
-  .signup p {
-    font-size: 14px;
-  }
-  .email_input input {
-    width: 280px;
-  }
-  .or {
-    position: relative;
-    left: 50px;
-    width: 200px;
-  }
-  .or p {
-    font-size: 13px;
-  }
-
-  .A_G_btn button {
-    width: 285px;
-  }
-  .A_G_btn button p {
-    font-size: 19px;
-    position: relative;
-    right: 120px;
-
-    font-weight: 700;
-  }
-  .container2 {
-    height: 10vh;
-  }
-
-  .cont2_content h2 {
-    font-size: 17px;
-    width: 340px;
-    position: absolute;
-    top: 0px;
-  }
-  .cont2_content p {
-    width: 240px;
-    display: none;
-  }
-  .percent_off {
-    position: absolute;
-    top: -28px;
-    left: 15px;
-    padding: 13px;
-  }
-} */
